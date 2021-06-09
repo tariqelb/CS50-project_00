@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    height: 100vh;
+}
+/* start header */
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 138px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#title {
+    position: relative;
+    color: blue;
+    margin: 30px;
+    float: right;
+    bottom: 10px;
+}
+#logo {
+    position: fixed;
+    left: 4px;
+    top: -25px;
+}
+.link
+{
+    height: 69px;
+    width: 100%;
+}
+.sub-title {
+    height: 69px;
+    width: 100%;
+}
+    
+#leb {
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    color: red;
+    top: 85px;
+    left: 45px;
+}
+
+/* end header */
+
+/* start form-holder */
+
+.form-holder {
+    position: relative;
+    margin: 2vh 5vw 0vh 2vw;
+    width: 96vw;    
+    padding: 0 1.6vw 0 1.6vw;
+    height: 50vh;
+}
+/* start div 1 */
+.div1 , .div2 , .div3 ,.div4 , .div5 {
+    height: 7.5vh;
+    width: 92.8vw;
+    display: flex;
+    flex-direction: row;
+}
+.stl0 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 4vh;
+    width: 14vw;
+}
+.stl2 {
+    width: 44vw;
+    height: 7.5vh;
+}
+.stl3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: gray;
+    padding-top: 4vh;    
+}
+/* end div1 */
+
+/* start div2 */
+
+.stlA0 , .stlA1 , .stlA2 , .stlA3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 14vw;
+}
+.stlA0 {
+    padding-top: 3.5vh;
+}
+.stl1B0, .stl1B1, .stl1B2, .stl1B3 {
+    width: 44vw;
+    height: 4.5vh;
+    padding:1px 8px ;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius:1px;
+    border:1px solid #d9d9d9;
+    border-top:1px solid #c0c0c0;
+    font-size:13px;
+}
+.stl1B0 {
+    margin-top: 2.2vh;
+}
+.stl2C0, .stl2C1, .stl2C2, .stl2C3 {
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    color:gray;
+    width: 34.8vw;
+    padding-left: 1vw;
+}
+.stl2C0 {
+    padding-top: 3.5vh;
+
+}
+/* end div2 */
+
+/* start div3 */
+
+.stlA1 {
+    padding-top: 2.8vh;
+}
+.stl1B1 {
+    margin-top: 1.5vh;
+}
+
+.stl2C1 {
+    padding-top: 2.6vh;
+    
+}
+
+/* end div3 */
+
+/* start div4 */
+
+.stlA2 {
+    padding-top: 1.8vh;
+}
+.stl1B2 {
+    margin-top: 1vh;
+}
+.stl2C2 {
+    padding-top: 2vh;
+}
+
+/* end div4 */
+
+/* start div5 */
+
+.stlA3 {
+    padding-top: 1.2vh;
+}
+
+.stl1B3 {
+    margin-top: 0.1vh;
+}
+.stl2C3 {
+    padding-top: 0.1vh;
+    
+}
+.stl1B0:focus ,.stl1B1:focus , .stl1B2:focus, .stl1B3:focus
+{
+    -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+    border:1px solid #4d90fe;
+    outline:none
+}
+#sp { 
+    font-size: 11px;
+    font-family: monospace;
+}
+/* end div5 */
+
+.submit {
+    margin-top:5vh;
+    margin-left: 40vw;
+    height: 30px;
+    width: 150px;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
+    background-color:rgb(58, 186, 233);
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;   
+}
+
+/* end form-holder */
+/* start footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(226, 226, 226);
+}
+.bar1 {
+    height: 8.5vh;
+    border-bottom: 1px solid lightgray;
+    bottom: 0;
+    padding-top: 3vh;
+}
+#mor {
+    position: relative;
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 45px;
+} 
+.bar2 {
+    height: 8.5vh;
+    bottom: 0;
+    padding-top: 10px;
+} 
+.bar2 > * {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+#hlp {
+    padding-left: 45px;
+
+}
+#prc {
+    margin-left: 22px;
+}
+#trm {
+    margin-left: 23px;
+}
+
+/* end footer */
+
+@media screen and (max-width: 1050px)
+{
+    .stl3 , .stl2C0, .stl2C1, .stl2C2, .stl2C3 {
+        visibility: hidden;
+    }
+}
