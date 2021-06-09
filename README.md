@@ -9,7 +9,6 @@ This is a solution to the [Search project_00 on CS50W](https://www.edx.org/cours
   - [Overview](#overview)
     - [The project](#the-project)
     - [Screenshot](#screenshot)
-    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -48,9 +47,6 @@ Query Advanced. On the Google Advanced Search page, the user is able to provide 
 ![Google image](./screenshot/Google-image_view.png)
 ![Google advanced search](./screenshot/Google-advanced-search_view.png)
 
-### Links
-
-- Live Site URL: [https://tariqelb.github.io/CS50-project_00/](https://tariqelb.github.io/CS50-project_00/)
 
 ## My process
 
